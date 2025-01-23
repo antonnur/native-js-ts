@@ -20,7 +20,7 @@ test('Testing one', () => {
   const {title} = props.address.street
 
   expect(age).toBe(33)
-  expect(lessons.length).toBe(2)
+  expect(lessons.length).toBe(3)
 
   expect(title).toBe('Siberia street')
 })
